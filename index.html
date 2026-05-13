@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adithya Rajesh, Freelance Web Developer based in Dubai. Custom-built, modern websites tailored to your brand.">
+  <title>Adithya Rajesh | Web Developer</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Adithya Rajesh, back to top">
+        <img src="logo.png" alt="Adithya Rajesh logo" class="nav__logo-img">
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#why-hire">Why Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav__cta">Get in Touch</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" aria-hidden="true">
+    <ul role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#why-hire">Why Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ================================================
+         Hero
+         ================================================ -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <!-- Mouse-tracking radial glow -->
+      <div class="hero__glow" id="heroGlow" aria-hidden="true"></div>
+
+      <div class="hero__content container">
+        <p class="hero__eyebrow">
+          <span class="hero__dot" aria-hidden="true"></span>
+          Available for freelance
+        </p>
+        <h1 class="hero__name">Adithya<br>Rajesh</h1>
+        <p class="hero__role">
+          Web Developer <span class="hero__accent">based in Dubai</span>
+        </p>
+        <p class="hero__tagline">
+          Building websites that don't just look good.
+          They work exactly the way they should.
+        </p>
+        <a href="#contact" class="btn btn--primary">Let's Work Together</a>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         About
+         ================================================ -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <p class="section__label" aria-hidden="true">01 / About</p>
+        <div class="about__inner">
+
+          <div class="about__text reveal">
+            <h2 id="about-heading" class="about__heading">
+              I build websites<br>worth visiting.
+            </h2>
+            <p class="about__body">
+              I'm a web developer based in Dubai with 3 years of hands-on coding and web development experience. I mainly work in building clean, functional, and modern websites that are bespoke to each client's specific goals: whether that's a sleek business landing page, a portfolio site, or something more interactive.
+            </p>
+            <p class="about__body">
+              I pride myself in having a very minimal number of reused assets, giving all my websites their own personal touch.
+            </p>
+          </div>
+
+          <div class="about__stats stagger" aria-label="Key statistics">
+            <div class="stat">
+              <span class="stat__number" data-target="3">3</span>
+              <span class="stat__label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">∞</span>
+              <span class="stat__label">Unique Designs</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="100" data-suffix="%">100%</span>
+              <span class="stat__label">Custom-Built</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         Certifications
+         ================================================ -->
+    <section class="certifications section" id="certifications" aria-labelledby="certs-heading">
+      <div class="container">
+        <p class="section__label" aria-hidden="true">02 / Certifications</p>
+        <h2 id="certs-heading" class="section__heading reveal">Credentials</h2>
+
+        <div class="certs__grid stagger">
+
+          <article class="cert-card">
+            <div class="cert-card__icon" aria-hidden="true">
+              <!-- Google logo -->
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+              </svg>
+            </div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Google Developer Codelabs</h3>
+              <p class="cert-card__issuer">Google</p>
+            </div>
+            <span class="cert-card__badge">Certified</span>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__icon" aria-hidden="true">
+              <!-- Microsoft logo -->
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.4 11.4H1V1h10.4v10.4z" fill="#F25022"/>
+                <path d="M23 11.4H12.6V1H23v10.4z" fill="#7FBA00"/>
+                <path d="M11.4 23H1V12.6h10.4V23z" fill="#00A4EF"/>
+                <path d="M23 23H12.6V12.6H23V23z" fill="#FFB900"/>
+              </svg>
+            </div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Microsoft Azure &amp; Cursor</h3>
+              <p class="cert-card__issuer">Microsoft</p>
+            </div>
+            <span class="cert-card__badge">Certified</span>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__icon cert-card__icon--anthropic" aria-hidden="true">
+              <!-- Anthropic 'A' wordmark shape -->
+              <svg viewBox="0 0 41 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.88 0h7.27L41 32h-7.27L23.88 0zM16.12 0H8.85L0 32h7.27l3.01-7.68h12.87l2.51-6.51H10.31L16.12 0z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Anthropic Prompt Engineering</h3>
+              <p class="cert-card__issuer">Anthropic</p>
+            </div>
+            <span class="cert-card__badge">Certified</span>
+          </article>
+
+        </div>
+
+        <p class="certs__note reveal">
+          These certifications reflect my commitment to staying current with industry best practices, modern development tools, and AI-assisted workflows that allow me to deliver faster without compromising quality.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================================================
+         Why Hire Me
+         ================================================ -->
+    <section class="why-hire section" id="why-hire" aria-labelledby="why-heading">
+      <div class="container">
+        <p class="section__label" aria-hidden="true">03 / Why Hire Me</p>
+        <h2 id="why-heading" class="section__heading reveal">
+          What you get when<br>you work with me.
+        </h2>
+
+        <div class="features__grid stagger">
+
+          <article class="feature-card">
+            <span class="feature-card__num" aria-hidden="true">01</span>
+            <h3 class="feature-card__title">Custom-built for you</h3>
+            <p class="feature-card__desc">Every website is designed around your brand and audience. No templates, no shortcuts, no recycled layouts.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-card__num" aria-hidden="true">02</span>
+            <h3 class="feature-card__title">Fully responsive</h3>
+            <p class="feature-card__desc">Seamless across every device: desktop, tablet, and mobile. Tested at every breakpoint, not assumed.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-card__num" aria-hidden="true">03</span>
+            <h3 class="feature-card__title">Clean, maintainable code</h3>
+            <p class="feature-card__desc">Well-structured, readable code you can build on. Not a maze to untangle when changes are needed.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-card__num" aria-hidden="true">04</span>
+            <h3 class="feature-card__title">Clear communication</h3>
+            <p class="feature-card__desc">You'll always know where your project stands. No radio silence, no surprises at delivery.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-card__num" aria-hidden="true">05</span>
+            <h3 class="feature-card__title">Quick turnaround</h3>
+            <p class="feature-card__desc">Efficient workflows and AI-assisted development mean fast delivery, without ever cutting corners on quality.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         Projects
+         ================================================ -->
+    <section class="projects section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <p class="section__label" aria-hidden="true">04 / Projects</p>
+        <h2 id="projects-heading" class="section__heading reveal">Selected Work</h2>
+
+        <div class="projects__list">
+
+          <!-- Dubai Meridian -->
+          <article class="project-card reveal" aria-label="Dubai Meridian project">
+            <div class="project-card__info">
+              <span class="project-card__num" aria-hidden="true">01</span>
+              <h3 class="project-card__name">Dubai Meridian</h3>
+              <p class="project-card__desc">
+                An international academic forum bringing together ~400 students and young professionals across finance, law, engineering, and management. The site handles multi-track event information, delegate registration, and the flagship Meridian Challenge, a cross-disciplinary pitch competition held in Business Bay, Dubai.
+              </p>
+              <div class="project-card__tags" aria-label="Project tags">
+                <span class="tag">Event Platform</span>
+                <span class="tag">Education</span>
+                <span class="tag">Multi-page</span>
+                <span class="tag">Bilingual</span>
+              </div>
+              <a href="https://dubaimeridian.com" class="project-card__link" target="_blank" rel="noopener noreferrer" aria-label="Visit Dubai Meridian website">
+                Visit Site
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="14" height="14">
+                  <path d="M3 8h10M9 4l4 4-4 4"/>
+                </svg>
+              </a>
+            </div>
+            <div class="project-card__mockup" aria-hidden="true">
+              <div class="mockup">
+                <div class="mockup__bar">
+                  <div class="mockup__dots">
+                    <span class="mockup__dot"></span>
+                    <span class="mockup__dot"></span>
+                    <span class="mockup__dot"></span>
+                  </div>
+                  <span class="mockup__url">dubaimeridian.com</span>
+                </div>
+                <div class="mockup__screen mockup__screen--meridian">
+                  <!-- CSS-art abstract representation of the Dubai Meridian site -->
+                  <div class="mockup__art mockup__art--meridian">
+                    <div class="ma-hero-bar"></div>
+                    <div class="ma-headline"></div>
+                    <div class="ma-sub"></div>
+                    <div class="ma-divider"></div>
+                    <div class="ma-cards">
+                      <div class="ma-card"></div>
+                      <div class="ma-card"></div>
+                      <div class="ma-card"></div>
+                      <div class="ma-card"></div>
+                    </div>
+                    <div class="ma-skyline" aria-hidden="true">
+                      <svg viewBox="0 0 340 80" preserveAspectRatio="xMidYMax meet" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0"   y="45" width="18" height="35" rx="1"/>
+                        <rect x="22"  y="30" width="14" height="50" rx="1"/>
+                        <rect x="40"  y="15" width="10" height="65" rx="1"/>
+                        <rect x="54"  y="38" width="20" height="42" rx="1"/>
+                        <rect x="78"  y="25" width="12" height="55" rx="1"/>
+                        <rect x="94"  y="10" width="8"  height="70" rx="1"/>
+                        <rect x="106" y="20" width="16" height="60" rx="1"/>
+                        <rect x="126" y="35" width="22" height="45" rx="1"/>
+                        <rect x="152" y="5"  width="10" height="75" rx="1"/>
+                        <rect x="166" y="28" width="14" height="52" rx="1"/>
+                        <rect x="184" y="18" width="18" height="62" rx="1"/>
+                        <rect x="206" y="40" width="12" height="40" rx="1"/>
+                        <rect x="222" y="22" width="20" height="58" rx="1"/>
+                        <rect x="246" y="32" width="10" height="48" rx="1"/>
+                        <rect x="260" y="12" width="16" height="68" rx="1"/>
+                        <rect x="280" y="38" width="14" height="42" rx="1"/>
+                        <rect x="298" y="20" width="12" height="60" rx="1"/>
+                        <rect x="314" y="45" width="26" height="35" rx="1"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Vidolo -->
+          <article class="project-card project-card--reverse reveal" aria-label="Vidolo project">
+            <div class="project-card__info">
+              <span class="project-card__num" aria-hidden="true">02</span>
+              <h3 class="project-card__name">Vidolo</h3>
+              <p class="project-card__desc">
+                A modern web platform built with a clean, minimal interface and a focus on performance. Designed and developed end-to-end as a fully custom build. No templates, no frameworks out of the box. Update this description with your own copy about what Vidolo does.
+              </p>
+              <div class="project-card__tags" aria-label="Project tags">
+                <span class="tag">Web Platform</span>
+                <span class="tag">Custom Build</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <a href="https://vidolo.org" class="project-card__link" target="_blank" rel="noopener noreferrer" aria-label="Visit Vidolo website">
+                Visit Site
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="14" height="14">
+                  <path d="M3 8h10M9 4l4 4-4 4"/>
+                </svg>
+              </a>
+            </div>
+            <div class="project-card__mockup" aria-hidden="true">
+              <div class="mockup">
+                <div class="mockup__bar">
+                  <div class="mockup__dots">
+                    <span class="mockup__dot"></span>
+                    <span class="mockup__dot"></span>
+                    <span class="mockup__dot"></span>
+                  </div>
+                  <span class="mockup__url">vidolo.org</span>
+                </div>
+                <div class="mockup__screen mockup__screen--vidolo">
+                  <div class="mockup__art mockup__art--vidolo">
+                    <div class="mv-hero-bar"></div>
+                    <div class="mv-headline"></div>
+                    <div class="mv-sub"></div>
+                    <div class="mv-grid">
+                      <div class="mv-tile mv-tile--tall"></div>
+                      <div class="mv-tile-col">
+                        <div class="mv-tile"></div>
+                        <div class="mv-tile"></div>
+                      </div>
+                      <div class="mv-tile mv-tile--wide"></div>
+                    </div>
+                    <div class="mv-orb mv-orb--1"></div>
+                    <div class="mv-orb mv-orb--2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         Contact
+         ================================================ -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <p class="section__label" aria-hidden="true">05 / Contact</p>
+        <div class="contact__inner reveal">
+          <h2 id="contact-heading" class="contact__heading">
+            Let's build<br>something great.
+          </h2>
+          <p class="contact__sub">
+            Have a project in mind? I'd love to hear about it.<br>Reach out and let's talk.
+          </p>
+          <div class="contact__links">
+
+            <a href="mailto:adithyakanattu@gmail.com" class="contact__link" aria-label="Send Adithya an email">
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              Email
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2025 Adithya Rajesh</p>
+      <p class="footer__loc">Dubai, UAE</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
